@@ -255,6 +255,7 @@ footer.nombre {
 
 /* Media query para pantallas pequeñas */
 @media only screen and (max-width: 689px) {
+    
     #NavBar ul li a {
         font-size: 12px;
         padding: 10px 20px; /* Añade un relleno alrededor del enlace */
@@ -293,12 +294,15 @@ footer.nombre {
 
 /* Media query para pantallas medianas a grandes */
 @media only screen and (min-width: 690px) and (max-width: 1400px) {
+    #NavBar{
+        padding: 2px 0px; /* Ajusta el espacio vertical */
+    }
     body {
         font-size: 25px; /* Ajustar el tamaño de la fuente del cuerpo */
     }
 
     #NavBar ul li a {
-        font-size: 24px; /* Ajustar el tamaño de la fuente del navbar */
+        font-size: 20px; /* Ajustar el tamaño de la fuente del navbar */
         padding: 18px 15.5px; /* Ajustar el relleno */
         white-space: nowrap;
     }
