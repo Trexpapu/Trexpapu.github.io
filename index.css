@@ -195,6 +195,7 @@ footer.Opinion label {
 }
 
 footer.Opinion input[type="text"],
+footer.Opinion input[type="email"],
 footer.Opinion textarea {
     width: 100%; /* Ancho completo */
     padding: 10px; /* Espaciado interno */

@@ -173,53 +173,19 @@
     <h3>¡Pregunta y opina!</h3>
     <form id="opinionForm">
         <label for="from_name">Correo</label><br>
-        <input type="text" id="from_name" name="from_name" required><br><br>
+        <input type="email" id="from_name" name="from_name" required><br><br>
 
         <label for="servicio">¿Qué servicio te gustaría recibir?</label><br>
-        <input type="text" id="servicio" name="servicio" required><br><br>
+        <input type="text" id="servicio" name="servicio"><br><br>
 
         <label for="mejoras">¿Qué mejorarías de mi sitio web?</label><br>
-        <textarea id="mejoras" name="mejoras" rows="4" cols="50" required></textarea><br><br>
+        <textarea id="mejoras" name="mejoras" rows="4" cols="50"></textarea><br><br>
 
         <input type="submit" value="Enviar">
     </form>
 </footer>
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-<script type="text/javascript">
-    emailjs.init('kMRwOl6Mmw4PH4yoC')
-
-    // Función para enviar el correo electrónico
-    function enviarCorreo() {
-        // Capturar datos del formulario
-        var form = document.getElementById('opinionForm');
-        var formData = {
-            from_name: form.from_name.value,
-            servicio: form.servicio.value,
-            mejoras: form.mejoras.value
-        };
-
-        // Enviar el correo electrónico
-        emailjs.sendForm("service_brwtbfg", "template_zag94eo", form)
-            .then(function(response) {
-                alert("Mensaje enviado.");
-                // Puedes agregar aquí cualquier lógica adicional después de enviar el correo
-            }, function(error) {
-                alert("Error, no se pudo enviar el mensaje");
-                // Puedes manejar errores aquí, por ejemplo, mostrar un mensaje al usuario
-            });
-
-        // Evitar que el formulario se envíe de forma predeterminada
-        return false;
-    }
-
-    // Agregar un event listener para el envío del formulario
-    document.getElementById('opinionForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Evitar envío de formulario predeterminado
-        enviarCorreo(); // Llamar a la función para enviar el correo electrónico
-    });
-</script>
     
 
 <!-- Footer con tu nombre -->
@@ -243,6 +209,10 @@
         <img class='WhatsApp_Icon' src="icon_whats.png" alt='foto' />
       </a>
 
+
+
+
+
       <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de,es', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, gaTrack: true}, 'google_translate_element');
@@ -250,6 +220,42 @@
         </script>
         
         <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
         
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+        <script type="text/javascript">
+            emailjs.init('kMRwOl6Mmw4PH4yoC')
+        
+            // Función para enviar el correo electrónico
+            function enviarCorreo() {
+                // Capturar datos del formulario
+                var form = document.getElementById('opinionForm');
+                var formData = {
+                    from_name: form.from_name.value,
+                    servicio: form.servicio.value,
+                    mejoras: form.mejoras.value
+                };
+        
+                // Enviar el correo electrónico
+                emailjs.sendForm("service_brwtbfg", "template_zag94eo", form)
+                    .then(function(response) {
+                        alert("Mensaje enviado.");
+                        // Puedes agregar aquí cualquier lógica adicional después de enviar el correo
+                    }, function(error) {
+                        alert("Error, no se pudo enviar el mensaje");
+                        // Puedes manejar errores aquí, por ejemplo, mostrar un mensaje al usuario
+                    });
+        
+                // Evitar que el formulario se envíe de forma predeterminada
+                return false;
+            }
+        
+            // Agregar un event listener para el envío del formulario
+            document.getElementById('opinionForm').addEventListener('submit', function(event) {
+                event.preventDefault(); // Evitar envío de formulario predeterminado
+                enviarCorreo(); // Llamar a la función para enviar el correo electrónico
+            });
+        </script>        
 </body>
 </html>
