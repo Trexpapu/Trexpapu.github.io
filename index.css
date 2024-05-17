@@ -296,7 +296,7 @@ footer.nombre {
 /* Media query para pantallas medianas a grandes */
 @media only screen and (min-width: 690px) and (max-width: 1400px) {
     #NavBar{
-        padding: 2px 0px; /* Ajusta el espacio vertical */
+        padding: 4% 0px; /* Ajusta el espacio vertical */
     }
     body {
         font-size: 25px; /* Ajustar el tamaño de la fuente del cuerpo */

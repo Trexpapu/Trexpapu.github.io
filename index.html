@@ -14,6 +14,7 @@
         <ul>
             <li><a href="#head">Inicio</a></li>
             <li><a href="#Acerca_de">Acerca de</a></li>
+            <li><a href="#Experiencia">Experiencia</a></li>
             <li><a href="#Proyectos">Proyectos</a></li>
             <li><a href="#Contacto">Contacto</a></li>
             <li><a href="#Opinion">Pregunta y opina </a></li>
@@ -33,6 +34,16 @@
     <br><br><br><br><br><br><br><br>
 
     <div class="Fondo_seccion" id="Acerca_de">
+        <h2 class="Seccion">Acerca de </h2><br>
+
+        <p class="Resumen">
+        Como estudiante de Ingeniería en Computación, tengo una sólida base en desarrollo de software, con especial interés en el diseño de arquitecturas de bases de datos y el desarrollo de videojuegos. Actualmente, me enfoco en el desarrollo backend, utilizando tecnologías como Django y Django Rest Framework. También tengo experiencia en desarrollo frontend, trabajando con HTML, CSS y JavaScript.
+
+        Domino varios lenguajes de programación, incluyendo Python, C, C#, JavaScript y SQL. Además, tengo conocimientos en bases de datos relacionales como PostgreSQL y estoy aprendiendo a utilizar frameworks como Electron para crear aplicaciones de escritorio.
+
+        Mi pasión por la programación y el desarrollo de software me impulsa a seguir aprendiendo y mejorando mis habilidades continuamente. En cada proyecto, me esfuerzo por escribir código limpio, bien estructurado y de alta calidad. Mi objetivo es convertirme en un excelente desarrollador backend, y en mi tiempo libre disfruto creando videojuegos con unity como hobby.
+        </p>
+
         <h2 class="Seccion">Educación </h2><br>
         <snap class="Intitucion">Universidad Michoacana San Nicolas De Hidalgo: <br> </snap>
             <span class="Titulos">Ingeniería en computación 2021-Actual:<br> </span>
@@ -55,25 +66,20 @@
             <span class="Titulos">Desarrollo de software <br>Desarrollo y gestión de bases de datos relacionales
             <br>Manejo de control de versiones con Github
             <br>Django<br>DjangoRestFramework
-            <br>Node.js <br>Express<br>Socket.io
-            <br>Tkinter
-            <br>Pygame
             <br>Unity 
             <br>Electron
-            <br>ncurses
-            <br>React
+            <br>PostgreSQL
+            <br>Node.js <br>Express<br>Socket.io
             <br>Python
             <br>C# 
             <br>C
-            <br>C++
-            <br>Java
             <br>JavaScript
             <br>HTML 
-            <br>CSS 
-            <br>PHP 
-            <br>Bash 
+            <br>CSS  
             <br>SQL 
-            <br>Filmora9 
+            <br>Trabajo en equipo
+            <br>Proactivo
+            <br>Autodidacta
             </span>
 
             <br>
@@ -82,6 +88,26 @@
 
 
 
+    <br><br><br><br><br><br><br><br>
+
+
+    <div class="Fondo_seccion" id="Experiencia">
+
+        <h2 class="Seccion">Experiencia</h2>
+        <snap class="Titulos">Profesor de taller básico de Python</snap>
+        <a class='No_border_icon' href="titulos/Curso python.PDF" download>
+            <img src="pdf.png" alt='foto' />
+          </a>  <br> </snap>
+        <p class="Resumen">Esta experiencia enriqueció mi habilidad para comunicar lo aprendido. En el curso impartido a otros alumnos de mi carrera, se enseñó a utilizar Python desde lo más básico hasta el punto en que los participantes lograron desarrollar un videojuego con Pygame.
+            <br>
+            Durante el curso, se abordaron temas como sintaxis básica, estructuras de control, estructuras de datos, hilos, sockets, modularización de código y el uso de la librería Pygame.
+        </p>
+            
+        <br>
+        <br>
+
+
+    </div>
     <br><br><br><br><br><br><br><br>
 
     <div class="Fondo_seccion" id="Proyectos">
@@ -213,13 +239,6 @@
 
 
 
-      <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de,es', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, gaTrack: true}, 'google_translate_element');
-        }
-        </script>
-        
-        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     
         
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
@@ -228,7 +247,7 @@
             emailjs.init('kMRwOl6Mmw4PH4yoC')
         
             // Función para enviar el correo electrónico
-            function enviarCorreo() {
+            function sendEmail() {
                 // Capturar datos del formulario
                 var form = document.getElementById('opinionForm');
                 var formData = {
@@ -254,7 +273,7 @@
             // Agregar un event listener para el envío del formulario
             document.getElementById('opinionForm').addEventListener('submit', function(event) {
                 event.preventDefault(); // Evitar envío de formulario predeterminado
-                enviarCorreo(); // Llamar a la función para enviar el correo electrónico
+                sendEmail(); // Llamar a la función para enviar el correo electrónico
             });
         </script>        
 </body>
