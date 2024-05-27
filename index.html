@@ -250,11 +250,6 @@
             function sendEmail() {
                 // Capturar datos del formulario
                 var form = document.getElementById('opinionForm');
-                var formData = {
-                    from_name: form.from_name.value,
-                    servicio: form.servicio.value,
-                    mejoras: form.mejoras.value
-                };
         
                 // Enviar el correo electrónico
                 emailjs.sendForm("service_brwtbfg", "template_zag94eo", form)
@@ -275,6 +270,8 @@
                 event.preventDefault(); // Evitar envío de formulario predeterminado
                 sendEmail(); // Llamar a la función para enviar el correo electrónico
             });
+
+            
         </script>        
 </body>
 </html>
