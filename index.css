@@ -8,6 +8,8 @@
     z-index: 999; /* Asegura que esté por encima de otros elementos */
 }
 
+
+
 /* Estilos para la lista de navegación */
 #NavBar ul {
     list-style-type: none; /* Quita los puntos de la lista */
