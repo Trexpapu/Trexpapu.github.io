@@ -30,52 +30,52 @@ document.getElementById('opinionForm').addEventListener('submit', function(event
 
 let imagenes = [
     {
-        "url": "https://Trexpapu.github.io/Trexpapu.github.io/photos/web_chat/1.PNG",
+        "url": "https://Trexpapu.github.io/photos/web_chat/1.PNG",
         "descripcion": "Chat web desarrollado con Node.js, Express.js, Socket.io"
 
     },
     {
-        "url": "https://Trexpapu.github.io/Trexpapu.github.io/photos/web_chat/2.PNG",
+        "url": "https://Trexpapu.github.io/photos/web_chat/2.PNG",
         "descripcion": "Chat web desarrollado con Node.js, Express.js, Socket.io"
 
     },
     {
-        "url": "https://Trexpapu.github.io/Trexpapu.github.io/photos/Pywhats/1.PNG",
+        "url": "https://Trexpapu.github.io/photos/Pywhats/1.PNG",
         "descripcion": "Envío de mensajes automático desarrollado con python, tkinter y sqlite"
 
     },
     {
-        "url": "https://Trexpapu.github.io/Trexpapu.github.io/photos/Pygame/1.png",
+        "url": "https://Trexpapu.github.io/photos/Pygame/1.png",
         "descripcion": "Videojuego desarrollado con pygame"
 
     },
     {
-        "url": "https://Trexpapu.github.io/Trexpapu.github.io/photos/Pygame/2.png",
+        "url": "https://Trexpapu.github.io/photos/Pygame/2.png",
         "descripcion": "Videojuego desarrollado con pygame"
 
     },
     {
-        "url": "https://Trexpapu.github.io/Trexpapu.github.io/photos/Pygame/3.png",
+        "url": "https://Trexpapu.github.io/photos/Pygame/3.png",
         "descripcion": "Videojuego desarrollado con pygame"
 
     },
     {
-        "url": "https://Trexpapu.github.io/Trexpapu.github.io/photos/Juegos_unity/1.png",
+        "url": "https://Trexpapu.github.io/photos/Juegos_unity/1.png",
         "descripcion": "Videojuego desarrollado con unity"
 
     },
     {
-        "url": "https://Trexpapu.github.io/Trexpapu.github.io/photos/Juegos_unity/2.png",
+        "url": "https://Trexpapu.github.io/photos/Juegos_unity/2.png",
         "descripcion": "Videojuego desarrollado con unity"
 
     },
     {
-        "url": "https://Trexpapu.github.io/Trexpapu.github.io/photos/chatbot/1.png",
+        "url": "https://Trexpapu.github.io/photos/chatbot/1.png",
         "descripcion": "Chatbot desarrollado con Django y DjangoRestFramework"
 
     },
     {
-        "url": "https://Trexpapu.github.io/Trexpapu.github.io/photos/chatbot/2.png",
+        "url": "https://Trexpapu.github.io/photos/chatbot/2.png",
         "descripcion": "Chatbot desarrollado con Django y DjangoRestFramework"
 
     },
