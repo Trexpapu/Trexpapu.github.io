@@ -60,22 +60,22 @@ let imagenes = [
 
     },
     {
-        "url": "https://Trexpapu.github.io/photos/Juegos_unity/1.png",
+        "url": "https://Trexpapu.github.io/photos/Juego_unity/1.PNG",
         "descripcion": "Videojuego desarrollado con unity"
 
     },
     {
-        "url": "https://Trexpapu.github.io/photos/Juegos_unity/2.png",
+        "url": "https://Trexpapu.github.io/photos/Juego_unity/2.PNG",
         "descripcion": "Videojuego desarrollado con unity"
 
     },
     {
-        "url": "https://Trexpapu.github.io/photos/chatbot/1.png",
+        "url": "https://Trexpapu.github.io/photos/chatbot/1.JPG",
         "descripcion": "Chatbot desarrollado con Django y DjangoRestFramework"
 
     },
     {
-        "url": "https://Trexpapu.github.io/photos/chatbot/2.png",
+        "url": "https://Trexpapu.github.io/photos/chatbot/2.JPG",
         "descripcion": "Chatbot desarrollado con Django y DjangoRestFramework"
 
     },
