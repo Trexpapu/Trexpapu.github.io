@@ -71,12 +71,12 @@ let imagenes = [
     },
     {
         "url": "https://Trexpapu.github.io/photos/chatbot/1.JPG",
-        "descripcion": "Chatbot desarrollado con Django y DjangoRestFramework"
+        "descripcion": "Chatbot desarrollado con DjangoRestFramework y HTML, CSS y JavaScript"
 
     },
     {
         "url": "https://Trexpapu.github.io/photos/chatbot/2.JPG",
-        "descripcion": "Chatbot desarrollado con Django y DjangoRestFramework"
+        "descripcion": "Chatbot desarrollado con DjangoRestFramework yy HTML, CSS"
 
     },
     
