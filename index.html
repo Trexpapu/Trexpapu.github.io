@@ -97,6 +97,22 @@
         .btn i {
             margin-right: 8px;
         }
+        .experience-tech {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tech-tag {
+            background-color: #f0f4f8; /* Un color suave */
+            color: #2d3748;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            border: 1px solid #cbd5e0;
+        }
         
         .highlight {
             color: var(--primary-color);
@@ -663,79 +679,81 @@
             </div>
         </div>
     </section>
-
-    <!-- Sección Habilidades -->
-    <section id="habilidades" class="skills">
-        <div class="container">
-            <h2>Competencias Técnicas</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Lenguajes de Programación</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">C</span>
-                        <span class="skill-tag">C#</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">SQL</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Django</span>
-                        <span class="skill-tag">Django Rest Framework</span>
-                        <span class="skill-tag">WPF</span>
-                        <span class="skill-tag">Express.js</span>
-                        <span class="skill-tag">Electron</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-database"></i> Bases de Datos</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">SQL Server</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-robot"></i> Automatización & Low-Code</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">n8n</span>
-                        <span class="skill-tag">Power Automate</span>
-                        <span class="skill-tag">Power Apps</span>
-                        <span class="skill-tag">SharePoint</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-brain"></i> IA Aplicada</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Agentes IA</span>
-                        <span class="skill-tag">LLM</span>
-                        <span class="skill-tag">RAG</span>
-                        <span class="skill-tag">Bots de WhatsApp</span>
-                        <span class="skill-tag">Bots de Telegram</span>
-                        <span class="skill-tag">Creación he integración de MCP</span>
-                        <span class="skill-tag">n8n y ElevenLabs</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-server"></i> Infraestructura</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Supabase</span>
-                        <span class="skill-tag">Despliegues vía SSH</span>
-                        <span class="skill-tag">ngrok</span>
-                        <span class="skill-tag">aws</span>
-                    </div>
+<section id="habilidades" class="skills">
+    <div class="container">
+        <h2>Competencias Técnicas</h2>
+        <div class="skills-container">
+            
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Lenguajes de Programación</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">C#</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">SQL</span>
                 </div>
             </div>
-        </div>
-    </section>
 
+            <div class="skill-category">
+                <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Django</span>
+                    <span class="skill-tag">Django Rest Framework</span>
+                    <span class="skill-tag">WPF</span>
+                    <span class="skill-tag">Express.js</span>
+                    <span class="skill-tag">Electron</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-database"></i> Bases de Datos</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">SQL Server</span>
+                    <span class="skill-tag">Baserow (No-code DB)</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-robot"></i> CRM, Automatización & Low-Code</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">n8n</span>
+                    <span class="skill-tag">Kommo (CRM & Embudos)</span>
+                    <span class="skill-tag">Brevo (Marketing Automation)</span>
+                    <span class="skill-tag">Power Automate</span>
+                    <span class="skill-tag">Power Apps</span>
+                    <span class="skill-tag">SharePoint</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-brain"></i> IA Aplicada</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Agentes IA</span>
+                    <span class="skill-tag">LLM</span>
+                    <span class="skill-tag">RAG</span>
+                    <span class="skill-tag">Bots de WhatsApp / Telegram</span>
+                    <span class="skill-tag">Integración de MCP</span>
+                    <span class="skill-tag">n8n + ElevenLabs</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> Infraestructura</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Supabase</span>
+                    <span class="skill-tag">Despliegues vía SSH</span>
+                    <span class="skill-tag">ngrok</span>
+                    <span class="skill-tag">RailWay</span>
+                    <span class="skill-tag">AWS</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
     <!-- Sección Experiencia -->
@@ -760,12 +778,18 @@
                     <li>Diseño e implementación de flujos en Power Automate para la automatización de procesos, carga de datos y generación de reportes.</li>
                     <li>Internacionalización de la aplicación a inglés y portugués para su uso en distintos contextos operativos.</li>
                 </ul>
+                <div class="experience-tech">
+                    <span class="tech-tag">Power Apps</span>
+                    <span class="tech-tag">Power Automate</span>
+                    <span class="tech-tag">SQL Server</span>
+                    <span class="tech-tag">SharePoint</span>
+                </div>
             </div>
 
             <div class="experience-item">
                 <div class="experience-header">
                     <div class="experience-title">
-                        <h3>Desarrollador Freelance</h3>
+                        <h3>Desarrollador de Software Freelance – Sistemas de Gestión Clínica Veterinaria</h3>
                         <div class="experience-company">Mascotas Morelia – Apatzingán, Michoacán</div>
                     </div>
                     <div class="experience-date">Sep 2025 – Dic 2025</div>
@@ -778,12 +802,74 @@
                     <li>Integración de flujos de n8n para la automatización de notificaciones de citas y envío de información a clientes.</li>
                     <li>Generación de documentos PDF con información clínica y de servicios.</li>
                 </ul>
+                <div class="experience-tech">
+                    <span class="tech-tag">Django</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">n8n</span>
+                    <span class="tech-tag">Python</span>
+                </div>
+            </div>
+
+
+
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="experience-title">
+                        <h3>Desarrollador de Software Freelance – Gestión Financiera</h3>
+                        <div class="experience-company">Abarrotera Morelia – Apatzingán, Michoacán</div>
+                    </div>
+                    <div class="experience-date">Ene 2026 – Feb 2026</div>
+                </div>
+                <ul class="experience-details">
+                    <li>Desarrollo de un sistema integral para el control de cuentas por pagar a proveedores y monitoreo de ventas por sucursal.</li>
+                    <li>Implementación de módulos de gestión de deudas con generación automatizada de tickets y tabulaciones financieras.</li>
+                    <li>Diseño de arquitectura modular y escalable bajo el patrón MVC, garantizando una separación clara entre reglas de negocio y vistas.</li>
+                    <li>Desarrollo de un sistema robusto de permisos y roles de usuario para el control de movimientos y seguridad de la información.</li>
+                    <li>Creación de un motor de reportes para la consolidación de ventas, cargos y pagos, facilitando la toma de decisiones financieras.</li>
+                    <li>Contenedorización de la aplicación mediante Docker y despliegue automatizado en la plataforma Railway.</li>
+                </ul>
+                <div class="experience-tech">
+                    <span class="tech-tag">Django</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Railway</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                </div>
+            </div>
+
+
+
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="experience-title">
+                        <h3>Especialista en Automatización de Ventas e IA</h3>
+                        <div class="experience-company">Datalogyx – (Remoto)</div>
+                    </div>
+                    <div class="experience-date">Ene 2026 – Actualidad</div>
+                </div>
+                <ul class="experience-details">
+                    <li>Liderazgo y dirección estratégica del proyecto de recuperación de leads, proponiendo mejoras en la arquitectura de datos y procesos de venta.</li>
+                    <li>Diseño de flujos ETL avanzados en n8n integrando IA para la segmentación y limpieza de grandes volúmenes de datos desde fuentes externas.</li>
+                    <li>Arquitectura y estructuración de embudos de venta personalizados en Kommo CRM para optimizar el seguimiento de prospectos recuperados.</li>
+                    <li>Desarrollo de <strong>Salebots automatizados dentro de Kommo CRM</strong> para diagnóstico de leads y nutrición de prospectos a través de WhatsApp.</li>
+                    <li>Implementación de estrategias omnicanal integrando n8n con Brevo para campañas de email marketing automatizadas y redirección a landing pages.</li>
+                    <li>Gestión de bases de datos intermedias en Baserow para el control y sincronización de información entre herramientas No-Code.</li>
+                </ul>
+                <div class="experience-tech">
+                    <span class="tech-tag">n8n (Advanced AI)</span>
+                    <span class="tech-tag">Kommo CRM</span>
+                    <span class="tech-tag">Brevo</span>
+                    <span class="tech-tag">Baserow</span>
+                    <span class="tech-tag">IA Aplicada</span>
+                    <span class="tech-tag">Bot WhatsApp</span>
+                </div>
             </div>
 
         </div>
     </div>
 </section>
-
 
 
 
